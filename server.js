@@ -41,7 +41,7 @@ app.use(
 
 app.use(
   cors({
-    origin: "http://localhost:3000", // Your frontend URL
+    origin: "https://tubeplay-fe.onrender.com", // Your frontend URL
     methods: ["GET", "POST", "PUT", "DELETE"],
     allowedHeaders: ["Content-Type", "Authorization"],
     credentials: true, // Ensure credentials are included
