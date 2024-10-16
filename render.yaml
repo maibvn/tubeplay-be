@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: backend-service
+    env: node
+    buildCommand: ./render-build.sh && npm install
+    startCommand: npm start
+    plan: free
