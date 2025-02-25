@@ -59,7 +59,7 @@ exports.uploadToDropbox = async (songs, uniqueId, req, res) => {
       console.error("Error checking existing files:", error);
       return;
     }
-    console.log(fileName, dropboxPath);
+    // console.log(fileName, dropboxPath);
 
     return new Promise((resolve, reject) => {
       const ytdlStream = ytdl(url, { filter: "audioonly" });
